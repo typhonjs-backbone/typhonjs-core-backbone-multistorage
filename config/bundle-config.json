@@ -1,0 +1,21 @@
+{
+   "entryPoints":
+   [
+      {
+         "destBaseDir": "./dist",
+         "destFilename": "typhonjs-core-backbone-localstorage.js",
+         "formats": ["amd"],
+         "mangle": false,
+         "minify": false,
+         "src": "src/multistorage.js",
+         "extraConfig":
+         {
+            "meta":
+            {
+               "backbone": { "build": false },
+               "typhonjs-core-multistorage": { "build": false }
+            }
+         }
+      }
+   ]
+}

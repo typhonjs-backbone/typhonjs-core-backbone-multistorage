@@ -1,0 +1,20 @@
+{
+   "entryPoints":
+   [
+      {
+         "inMemoryBuild": true,
+         "formats": ["amd"],
+         "mangle": false,
+         "minify": false,
+         "src": "src/ModuleRuntime.js",
+         "extraConfig":
+         {
+            "meta":
+            {
+               "jquery": { "build": false },
+               "underscore": { "build": false }
+            }
+         }
+      }
+   ]
+}

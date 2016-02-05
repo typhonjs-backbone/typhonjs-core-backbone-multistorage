@@ -1,0 +1,14 @@
+{
+   "title": "backbone-es6",
+   "source": "src",
+   "destination": "docs",
+   "plugins": [ { "name": "esdoc-plugin-jspm" } ],
+   "manual":
+   {
+      "overview": ["./manual/overview.md"],
+      "installation": ["./manual/installation.md"],
+      "tutorial": ["./manual/tutorial.md"],
+      "faq": ["./manual/faq.md"],
+      "changelog": ["./CHANGELOG.md"]
+   }
+}
