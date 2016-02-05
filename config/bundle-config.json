@@ -3,7 +3,7 @@
    [
       {
          "destBaseDir": "./dist",
-         "destFilename": "typhonjs-core-backbone-localstorage.js",
+         "destFilename": "typhonjs-core-backbone-multistorage.js",
          "formats": ["amd"],
          "mangle": false,
          "minify": false,
