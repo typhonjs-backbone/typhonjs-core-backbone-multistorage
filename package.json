@@ -12,7 +12,7 @@
     "url": "https://github.com/typhonjs/typhonjs-core-backbone-multistorage/issues"
   },
   "jspm": {
-    "main": "src/localstorage.js",
+    "main": "src/multistorage.js",
     "dependencies": {
       "backbone": "github:typhonjs/backbone-es6@master",
       "typhonjs-core-multistorage": "github:typhonjs/typhonjs-core-multistorage@master"
